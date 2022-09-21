@@ -1,0 +1,22 @@
+@media (max-width: 500px){
+    body{
+    background-color:aqua !important;
+    }
+   nav{
+        flex-direction: column;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .logo{
+        justify-content: flex-start;
+        
+    }
+    .search{
+        justify-content: center;
+        margin: 10px 12px;
+    }
+    .front{
+        height: 25vh;
+    }
+}
